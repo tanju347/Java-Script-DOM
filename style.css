@@ -10,3 +10,6 @@ button{
   padding: 10px 20px;
   cursor: pointer;
 }
+.dark{
+  background-color:black;
+  color: white;
