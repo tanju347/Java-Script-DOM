@@ -9,3 +9,6 @@ changeBtn.addEventListener("click",function(){
 		description.textContent= "You ar seeing this because you have clicked the button";
 		Console.log("button clicked");
 });
+const themeButton = document. queryselector(" #theme-button");
+themeButton.addEventListener("click",function(){
+	document. body.classlist.toggle("dark")})
