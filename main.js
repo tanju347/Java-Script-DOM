@@ -11,4 +11,7 @@ changeBtn.addEventListener("click",function(){
 });
 const themeButton = document. queryselector(" #theme-button");
 themeButton.addEventListener("click",function(){
-	document. body.classlist.toggle("dark")})
+	document. body.classlist.add("dark")})
+const themeButton = document. queryselector(" #theme-button");
+themeButton.addEventListener("click",function(){
+	document. body.classlist.remove("dark")})
