@@ -15,16 +15,42 @@
 </head>
 
 <body >
-  <h1 id="title">Welcome to Java script</h1>
-  <p id="desc">We are learn Java script line be line</p>
-  <div>
-    <button id="change-button"> Change The Text</button>
-    <button id="theme-change"> Toggle Theme</button>
-    
-  </div>
-  <!-- Project -->
-  <script src="main.js"></script>
-  
+<section class="login-section box ".login-section{
+ id="login-section">
+    <h1>Login</h1>
+
+  <input type="text" id="user-name" placeholder="Enter username">
+ <input type="password" id="user-password" placeholder="Enter password">
  
+ <p id="error-Msg" class="error-Msg hidden">USERNAME OR PASSWORD MISMATCHED</p>
+
+ <button id="login-button">Login</button>
+
+ <div class="demo">
+ <p class="demo-heading"><strong>Demo Login</strong></p>
+ <p>Username:Tanjila</p>
+
+ 	<p>password:1234*</p>
+ 	 </div>
+ 	 </section>
+  <!-- login section end -->
+  
+  <!-- dashboard section start -->
+  
+  
+    <section class="dashboard-section box hidden" id="dashboard-section">
+
+  <h2>welcome To Dashboard</h2>
+  <p class="welcome-text" id="welcome-text">welcome miss.user</p>
+  
+  <div class="dashboard-actions" id="">
+    <button id="theme-button">Toggle dark/Light</button>
+    <button id="logout-button">log out</button>
+  </div>
+  
+ </section>
+   <!-- dashboard section end -->
+
+  <script src="main.js"></script>
 </body>
 </html>
